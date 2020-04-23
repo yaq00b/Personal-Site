@@ -95,6 +95,11 @@ h3{
     left: 20%;
     bottom: 450px;
 }
+
+.marginBottom {
+    bottom: 500px;
+}
+
 .Sea_image {
     width: 100%;
     position: absolute;
