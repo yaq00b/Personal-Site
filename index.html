@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>This is Yaqoob</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+
     <link rel="stylesheet" href="CSS\Styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 
@@ -13,56 +16,156 @@
        <!-- <img class="Cloudl_image" src="Images\cloud l.svg" alt="sea_image"> -->
        <!-- <img class="Cloudr_image" src="Images\cloud r.svg" alt="sea_image"> -->
         <img class="Sunclouds" src="Images/sunclouds.svg" alt="sea_image">
+        <div id="bulb"><i class=" bulb far fa-lightbulb fa-lg" data-toggle="tooltip" data-placement="left" title="click to see a little animation"></i></div>
+
         <h1>I'm Yaqoob</h1>
-        <h2 class="devh2">a Developer</h2>
+        <h2 class="devh2">a Web Developer</h2>
+
+        <div class="contacts-container">
+          <div class="contact-me">
+            <a class="btn btn-sm btn-outline-info" href="mailto:yaqub.cpn96@email.com">CONTACT ME</a>
+          </div>
+      </div>
+
         <img class="Sea_image" src="Images\sea new.svg" alt="sea_image">
 
     </div>
 
     <div class="middle-container">
         <div class="profile">
-          <img class="Profile_image" src="Images\my pic.png" alt="my pic">
+          <img class="Profile_image" src="Images\profile-pic.jpg" alt="my pic">
           <h2>Hello.</h2>
-          <p class="intro">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+          <p class="intro">I'm a programmer with a passion of developing creative websites. Recently graduated with a degree in computer Science and Engineering from Manipal Academy of Higher Education in Dubai. Looking for a stable job as a Programmer </p>
         </div>
+      </div>
 
-        <hr>
+
+      <div class= "skills-container">
+
+        <!--<hr> -->
 
         <div class="skills">
           <h2>My Skills.</h2>
           <div class="skill-row">
             <img class="Code_image" src="Images\coding.png" alt="coding">    
             <h3>Design & Development</h3>
-            <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+            <p class="skill-p">A frontend and backend website developer with experience in creating custom websites through Nodejs and CSS.</p>
           </div>
 
           <div class="skill-row">
-            <img class="Car_image" src="Images\race car blue.png" alt="race car">
-            <h3>Race Car driver</h3>
-            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+            <img class="Tt_image" src="Images\pingpong.jpg" alt="Table tennis">
+            <h3>Table Tennis</h3>
+            <p class="skill-p">Learned to play Table tennis while playing with friends, have gotten pretty good at it over the years.</p>
           </div>
         </div>
 
-        <hr>
-
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-          <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-          <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
-        </div>
-    </div>
+      </div>
       
+      <div class="works-container">
+        <h2>My Work.</h2>
+
+        <div class="row cards">
+
+          <div class="col-6 card " style="max-width: 540px;">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row shadow-sm  position-relative">
+              <div class="col-md-4">
+                <img src="Images\simon.jpg" class="simon-img card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Simon Game</h5>
+                  <p class="card-text">This is an implementation of the traditional memory game Simon, Using pure Javascript and Jquery. </p>
+                  <p class="card-text"><a class="card-link" href="https://yaq00b.github.io/Simon-Game/."><small>Check it out</small></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 card" style="max-width: 540px;">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row shadow-sm  position-relative">
+              <div class="col-md-4">
+                <img src="Images\drums.jpg" class="drum-img card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Drum Kit</h5>
+                  <p class="card-text">A simple drum kit keyboard that plays the sound of the instrument by clicking on them or pressing the keys on the keyboard.</p>
+                  <p class="card-text"><a class="card-link" href=" https://yaq00b.github.io/Drum-kit/."><small>Check it out</small></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 card" style="max-width: 540px;">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row shadow-sm  position-relative">
+              <div class="col-md-4">
+                <img src="Images\blog.JPG" class="blog-img card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Daily Journal</h5>
+                  <p class="card-text">A simple blog website. All the data is stored on MongoDB database.</p>
+                  <p class="card-text"><a class="card-link" href="https://powerful-plains-91602.herokuapp.com/"><small>Check it out</small></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 card" style="max-width: 540px;">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row shadow-sm  position-relative">
+              <div class="col-md-4">
+                <img src="Images\covid19.JPG" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Covid-19</h5>
+                  <p class="card-text">An App that shows updates on the covid-19 test cases of every country. Data is being taken from the Covid-19 API.</p>
+                  <p class="card-text"><a class="card-link" href="https://murmuring-spire-61358.herokuapp.com/"><small>Check it out</small></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 card" style="max-width: 540px;">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row shadow-sm  position-relative">
+              <div class="col-md-4">
+                <img src="Images\todolist.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">ToDo List</h5>
+                  <p class="card-text">A simple Todo List that allows user to add, delete and create new lists. the lists are simeltaneouly stored on the database. Made using Nodejs and MongoDB</p>
+                  <p class="card-text"><a class="card-link" href="https://nameless-mesa-20933.herokuapp.com/"><small>Check it out</small></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="contacts-container">
+          <div class="contact-me">
+            <h3>Get in touch</h3>
+            <a class="btn btn-sm btn-outline-info" href="mailto:yaqub.cpn96@email.com">CONTACT ME</a>
+          </div>
+      </div>
+
+
+      </div>
       
       <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <a class="footer-link" href="https://www.linkedin.com/in/yaqub-mohammed-700691137/">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/yaq00b">Github</a>
+        <a class="footer-link" href="#" onclick="window.open('Images/Mohammed Yaqoob_Resume.pdf', '_blank', 'fullscreen=yes'); return false;">Resume</a>
         <p class="copyright">© 2020 Yaqoob Habeeb</p>
       </div>
       
 
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="JS\script.js" charset="utf-8"></script>   
+      <script src="JS\script.js" charset="utf-8"></script>  
 </body>
 </html>

@@ -1,8 +1,7 @@
 
-var flag = 0; //0 = sun, 1 = moon
 
-$(".top-div").click(function() {
-
+$("#bulb").click(function() {
+    
     $(".Sunclouds").slideUp();
     var source = $(".Sunclouds").attr( "src" );
     if (source == "Images/sunclouds.svg")
@@ -13,6 +12,9 @@ $(".top-div").click(function() {
             $(".top-div").css("background-color","#00172b");
             $(".top-div").css("color","white");
             $("body").css("background-color","#121212");
+            $(".works-container").css("background-color","#121212");
+            $(".cards").css("background-color","#121212");
+            $(".card").css("background-color","#121212");
             $("p").css("color", "white");
             $(".bottom-container").css("background-color","#00172b");
             $(".Sunclouds").addClass("marginBottom");
@@ -26,7 +28,11 @@ $(".top-div").click(function() {
             $(".top-div").css("background-color","rgba(243, 241, 161, 0.53)");
             $(".top-div").css("color","black");
             $("body").css("background-color","white");
+            $(".works-container").css("background-color","white");
+            $(".cards").css("background-color","white");
+            $(".card").css("background-color","white");
             $("p").css("color", "black");
+            $(".skill-p").css("color", "white");
             $(".bottom-container").css("background-color","#90d6cb");
             $(".Sunclouds").removeClass("marginBottom");
         }, 400);
