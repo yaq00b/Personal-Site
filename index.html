@@ -11,13 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 
 </head>
+<style>
+  @media (max-width: 1024px){
+    .card {
+      margin: 10px auto 20px auto;
+      height: fit-content;
+    }  
+
+  }
+
+</style>
 <body>
 
     <div class="top-div"> 
        <!-- <img class="Cloudl_image" src="Images\cloud l.svg" alt="sea_image"> -->
        <!-- <img class="Cloudr_image" src="Images\cloud r.svg" alt="sea_image"> -->
         <img class="Sunclouds" src="Images/sunclouds.svg" alt="sea_image">
-        <div id="bulb"><i class=" bulb far fa-lightbulb fa-lg" data-toggle="tooltip" data-placement="left" title="click to see a little animation"></i></div>
+        <div id="bulb"><i class=" bulb far fa-lightbulb fa-lg" data-toggle="tooltip" data-placement="left" title="Tap to see a little animation"></i></div>
 
         <h1>I'm Yaqoob</h1>
         <h2 class="devh2">a Web Developer</h2>
@@ -67,12 +77,12 @@
 
         <div class="row cards">
 
-          <div class="col-6 card " style="max-width: 540px;">
+          <div class=" col-lg-6 card  " style="max-width: 540px;">
             <div class="row no-gutters border rounded overflow-hidden flex-md-row shadow-sm  position-relative">
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="Images\simon.jpg" class="simon-img card-img" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-8">
                 <div class="card-body">
                   <h5 class="card-title">Simon Game</h5>
                   <p class="card-text">This is an implementation of the traditional memory game Simon, Using pure Javascript and Jquery. </p>
@@ -82,12 +92,12 @@
             </div>
           </div>
 
-          <div class="col-6 card" style="max-width: 540px;">
+          <div class="col-lg-6 card " style="max-width: 540px;">
             <div class="row no-gutters border rounded overflow-hidden flex-md-row shadow-sm  position-relative">
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="Images\drums.jpg" class="drum-img card-img" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-8">
                 <div class="card-body">
                   <h5 class="card-title">Drum Kit</h5>
                   <p class="card-text">A simple drum kit keyboard that plays the sound of the instrument by clicking on them or pressing the keys on the keyboard.</p>
@@ -97,12 +107,12 @@
             </div>
           </div>
 
-          <div class="col-6 card" style="max-width: 540px;">
+          <div class="col-lg-6 card " style="max-width: 540px;">
             <div class="row no-gutters border rounded overflow-hidden flex-md-row shadow-sm  position-relative">
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="Images\blog.JPG" class="blog-img card-img" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-8">
                 <div class="card-body">
                   <h5 class="card-title">Daily Journal</h5>
                   <p class="card-text">A simple blog website. All the data is stored on MongoDB database.</p>
@@ -112,12 +122,12 @@
             </div>
           </div>
 
-          <div class="col-6 card" style="max-width: 540px;">
+          <div class="col-lg-6 card " style="max-width: 540px;">
             <div class="row no-gutters border rounded overflow-hidden flex-md-row shadow-sm  position-relative">
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="Images\covid19.JPG" class="card-img" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-8">
                 <div class="card-body">
                   <h5 class="card-title">Covid-19</h5>
                   <p class="card-text">An App that shows updates on the covid-19 test cases of every country. Data is being taken from the Covid-19 API.</p>
@@ -127,12 +137,12 @@
             </div>
           </div>
 
-          <div class="col-6 card" style="max-width: 540px;">
+          <div class="col-lg-6 card " style="max-width: 540px;">
             <div class="row no-gutters border rounded overflow-hidden flex-md-row shadow-sm  position-relative">
-              <div class="col-md-4">
+              <div class="col-4">
                 <img src="Images\todolist.jpg" class="card-img" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-8">
                 <div class="card-body">
                   <h5 class="card-title">ToDo List</h5>
                   <p class="card-text">A simple Todo List that allows user to add, delete and create new lists. the lists are simeltaneouly stored on the database. Made using Nodejs and MongoDB</p>
